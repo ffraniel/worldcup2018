@@ -32,12 +32,12 @@ class Fixture extends Component {
 
     return (
       <div className="fixture">
-        <h3 className="ko-fixture">{ko}</h3>
-        <h4 className="location">{location}</h4>
+        <p className="ko-fixture">{ko}</p>
+        <p className="location">{location}</p>
 
-        <section className="scoreBox">
+        <section className="score-box">
 
-          <section className="teamBox teamBoxLeft">
+          <section className="team-box team-box-left">
             <section>
               <p className="teamName">{nationA}</p>
             </section>
@@ -52,11 +52,12 @@ class Fixture extends Component {
             </section>
           </section>
 
-          <section className="vs">
+          <section className="vs-completed">
                 <p>VS</p>
+                <p>Full Time</p>
           </section>
 
-          <section className="teamBox teamBoxRight">
+          <section className="team-box team-box-right">
             <section>
               <p className="teamName">{nationB}</p>
             </section>

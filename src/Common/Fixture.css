@@ -1,6 +1,31 @@
 .fixture{
     text-align: center;
+    border:solid red 1px;
+    margin:0;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: repeat(3, 1fr);
+
 }
 .teamName{
     background:grey;
+}
+.ko-fixture{
+    grid-column: span 3;
+}
+
+.location{
+    grid-column: span 3;
+}
+
+.score-box{
+    grid-column: span 3;
+
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.team-box{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
 }
