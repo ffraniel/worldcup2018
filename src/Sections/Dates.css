@@ -1,0 +1,11 @@
+.dates-page-title{
+    text-align: center;
+}
+
+.dates-list {
+    display:grid;
+    grid-template-columns: 1fr;
+    margin:20px;
+    /* outline:solid red 0.2px; */
+
+}

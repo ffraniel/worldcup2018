@@ -42,7 +42,7 @@ class Fixture extends Component {
               <p className="teamName">{nationA}</p>
             </section>
             <section>
-              <p>{nationAGoals}</p>
+              <p className="goals-display">{nationAGoals}</p>
             </section>
             <section className="details">
               {nationADetails &&
@@ -62,7 +62,7 @@ class Fixture extends Component {
               <p className="teamName">{nationB}</p>
             </section>
             <section>
-              <p>{nationBGoals}</p>
+              <p className="goals-display">{nationBGoals}</p>
             </section>
             <section className="details">
               {nationBDetails &&

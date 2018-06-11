@@ -1,26 +1,38 @@
 .fixture{
     text-align: center;
-    /* border:solid red 1px; */
+    padding-top: 5px;
+    box-shadow: 3px 1px 2px 2px rgba(122, 115, 115, 0.445);
     margin:0;
     display:grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: repeat(3, 1fr);
+    grid-template-rows: 20px 20px 1fr;
+    grid-auto-rows: repeat(3, auto);
 
 }
 .teamName{
-    background:grey;
+    font-size:2rem;
 }
+
+.goals-display {
+    font-size:2rem;
+}
+
 .ko-fixture{
     grid-column: span 3;
+    margin-top:0;
+    padding:0;
+    /* outline:green 0.2px solid; */
+    font-size:0.8rem;
 }
 
 .location{
     grid-column: span 3;
+    font-size:0.8rem;
+    margin-top:0;
 }
 
 .score-box{
     grid-column: span 3;
-
     display:grid;
     grid-template-columns: repeat(3, 1fr);
 }
@@ -28,4 +40,8 @@
 .team-box{
     display:grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.details p {
+    font-size: 0.7rem;
 }
