@@ -1,0 +1,9 @@
+.overlay {
+    border:solid red 0.5px;
+    position: fixed;
+    z-index: 2;
+    top:0;
+    right:0;
+    background:black;
+    color:white;
+}

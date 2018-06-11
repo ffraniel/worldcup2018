@@ -7,7 +7,7 @@ class Header extends Component {
       <div className="header">
         <nav>
             <a href="#'">Home</a>
-            <a href="#'">Group</a>
+            <a href="#'">Groups</a>
             <a href="#'">Dates</a>
             <a href="#'">Knockout Stages</a>
             <h3></h3>

@@ -1,5 +1,17 @@
-.group-table{
-    /* outline: black 0.5px solid; */
+.group-name{
+    text-align: center;
+}
 
+.group-table{
+
+}
+
+.ReactTable{
+    text-align: center;
+    width:100%; 
+}
+
+.rt-table{
+    background:pink;
 
 }
