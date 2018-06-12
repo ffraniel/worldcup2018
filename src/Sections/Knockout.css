@@ -1,0 +1,47 @@
+.knockout-title{
+    text-align: center;
+}
+
+.knockout-display{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin:20px;
+    grid-gap:20px;
+}
+
+
+.team-box{
+    outline:solid 0.5px black;
+}
+
+.team-box-name{
+    text-align: center;
+}
+
+.team-box{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+
+.qualified-teams{
+    outline:green 2px solid;
+}
+
+.quarter-finalists{
+    outline:yellow 2px solid;
+}
+
+.semi-finalists{
+    outline:blue 2px solid;
+}
+
+.finalists{
+    outline:red 2px solid;
+}
+.runners-up {
+    outline:purple 2px solid;
+}
+
+.knockout-titles{
+    text-align: center;
+}
