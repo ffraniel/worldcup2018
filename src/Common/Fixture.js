@@ -47,7 +47,7 @@ class Fixture extends Component {
             <section className="details">
               {nationADetails &&
                 nationADetails.map((goal, key) => {
-                  return <p>{goal}</p>;
+                  return <p key={key}>{goal}</p>;
                 })}
             </section>
           </section>

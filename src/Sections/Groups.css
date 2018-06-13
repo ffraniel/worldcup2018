@@ -1,0 +1,12 @@
+
+
+.group-title{
+    text-align: center;
+}
+
+.group-display{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin:5px;
+}
